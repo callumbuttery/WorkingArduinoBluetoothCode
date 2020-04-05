@@ -22,7 +22,7 @@ void loop()
 value= analogRead(AOUTpin);//reads the analaog value from the CO sensor's AOUT pin
 BTserial.println(value);
         
-delay(2000); 
+delay(3000); 
  
 
 }
